@@ -1,7 +1,7 @@
 <script setup>
 import { ref, reactive, provide, computed } from 'vue'
 import ProductList from '@/components/ProductList.vue'
-import Cart from '@/components/Cart.vue'
+import Cart from '@/components/ProductCart.vue'
 import Notification from '@/components/ToastNotify.vue'
 
 const products = ref([

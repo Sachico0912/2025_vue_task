@@ -1,6 +1,6 @@
 <script setup>
 import { inject } from 'vue'
-const props = defineProps({
+defineProps({
   carts: {
     type: Array,
     required: true,
